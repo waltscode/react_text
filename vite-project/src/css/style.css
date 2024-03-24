@@ -1,0 +1,99 @@
+/* @keyframes scroll {
+    0% { top: 0; }
+    33.33% { top: 0; }
+    66.66% { top: 100%; }
+    100% { top: 100%; }
+}
+
+.component {
+    height: 180px;
+    width: 436px;
+}
+
+.component .overlap-group {
+    height: 180px;
+    position: relative;
+    top: -1px;
+}
+
+.component .text-wrapper {
+    color: #000000;
+    font-family: "Outfit-Black", Helvetica;
+    font-size: 64px;
+    font-weight: 900;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 436px;
+}
+
+.component .intro-text {
+    position: relative;
+    top: -6px;
+    left: -351px;
+}
+
+.component .frame {
+    height: 75px;
+    overflow: hidden;
+    position: absolute;
+    width: 359px;
+}
+
+.component .discover-innovate {
+    background: linear-gradient(180deg, rgb(189.27, 119.13, 244.37) 0%, rgb(224.55, 191.2, 250.75) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-family: "Outfit-Black", Helvetica;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+}
+
+.component .frame-1 .discover-innovate {
+    animation: scroll 9s infinite;
+}
+
+.component .frame-2 .discover-innovate {
+    animation: scroll 9s infinite;
+}
+
+.component .frame-3 .discover-innovate {
+    animation: scroll 9s infinite;
+} */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #word {
+    font-size: 3rem;
+    cursor: pointer;
+  
+  }
+  .text-container {
+    margin-right: 10px; /* Adjust spacing between text and word */
+  }
+
+  .word-container {
+    display: flex; /* Use flexbox */
+    justify-content: flex-start; /* Align words to the start of the container */
+  }
+  
+  .word {
+    color: peachpuff; /* Initial color */
+  }
+  
+  .word:hover {
+    color: red; /* Color on hover */
+    cursor: pointer;
+  }
