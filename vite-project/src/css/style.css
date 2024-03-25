@@ -68,11 +68,11 @@
     animation: scroll 9s infinite;
 } */
 
-.container {
+.container-txt {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 50vh;
   }
   
   #word {
@@ -87,12 +87,14 @@
   .word-container {
     display: flex; /* Use flexbox */
     justify-content: flex-start; /* Align words to the start of the container */
+    width: 500px;
   }
   
   .word {
     color: peachpuff; /* Initial color */
-  }
+    text-shadow: 0 0 10px rgba(255, 218, 185, 0.4); /* Text glow effect */
   
+  }
   .word:hover {
     color: red; /* Color on hover */
     cursor: pointer;
